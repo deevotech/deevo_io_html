@@ -20,20 +20,23 @@ $(document).ready(function(){
    var clSmoothScroll = function() {
         
     $('.smoothscroll').on('click', function (e) {
-        var target = this.hash,
+        var target = this.hash;
+        console.log(this.hash);
         $target    = $(target);
+        // console.log(target);
+        console.log($target);
         
             e.preventDefault();
             e.stopPropagation();
 
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
+            'scrollTop': $(target).offset().top
         }, cfg.scrollDuration, 'swing').promise().done(function () {
 
             // check if menu is open
-            if ($('body').hasClass('menu-is-open')) {
-                $('.header-menu-toggle').trigger('click');
-            }
+            // if ($('body').hasClass('menu-is-open')) {
+            //     $('.header-menu-toggle').trigger('click');
+            // }
 
             window.location.hash = target;
         });
@@ -41,6 +44,7 @@ $(document).ready(function(){
 
 };
 
+    /*Initialize*/
     (function ssInit() {
         clSmoothScroll();
     })();
