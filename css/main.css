@@ -108,8 +108,15 @@
   padding-top: 90px;
   padding-bottom: 90px;
 }
-.s-home .home-content {
-  display: table-cell;
+.s-home .home-content h1 {
+  font-family: montserrat-semibold, sans-serif;
+}
+
+.s-project {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #39b54a;
+  color: #010507;
 }
 
 /*# sourceMappingURL=main.css.map */
