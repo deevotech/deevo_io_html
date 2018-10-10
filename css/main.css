@@ -1,5 +1,19 @@
+.s-header {
+  width: 100%;
+  height: 96px;
+  background-color: transparent;
+  position: absolute;
+  top: 150px;
+  z-index: 500;
+}
+
+.header-logo {
+  position: absolute;
+  left: 100px;
+}
+
 .site-logo img {
-  width: 200px;
+  width: 100px;
 }
 
 .hidden {
@@ -75,21 +89,20 @@
 .header-menu-toggle {
   font-family: montserrat-semibold, sans-serif;
   text-transform: uppercase;
-  height: 42px;
-  width: 42px;
+  color: #fff;
+  position: absolute;
+  right: 100px;
 }
 .header-menu-toggle .header-menu-text {
   position: absolute;
-  top: 105px;
-  right: 50px;
+  right: 15px;
 }
 .header-menu-toggle .header-menu-icon {
-  background-color: #333;
+  background-color: #fff;
   width: 22px;
   height: 2px;
   position: absolute;
-  right: 16px;
-  top: 111px;
+  top: 6px;
 }
 .header-menu-toggle .header-menu-icon::before {
   content: "";
@@ -107,9 +120,16 @@
 .s-home {
   padding-top: 90px;
   padding-bottom: 90px;
+  min-height: 786px;
 }
-.s-home .home-content h1 {
+.s-home .home-content h1,
+.s-home .home-content p {
   font-family: montserrat-semibold, sans-serif;
+  color: #FFFFFF;
+}
+.s-home .home-content .home-content__main {
+  padding-top: 300px;
+  padding-bottom: 250px;
 }
 
 .s-project {
