@@ -1,8 +1,3 @@
-.header-logo {
-  position: absolute;
-  top: 60px;
-}
-
 .site-logo img {
   width: 200px;
 }
@@ -107,6 +102,14 @@
 
 .header-menu-toggle:hover {
   text-decoration: none;
+}
+
+.s-home {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.s-home .home-content {
+  display: table-cell;
 }
 
 /*# sourceMappingURL=main.css.map */
