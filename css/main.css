@@ -1,3 +1,20 @@
+@import url(../css/fonts.css);
+html,
+body {
+  height: 100%;
+}
+
+a {
+  font-family: montserrat-semibold, sans-serif;
+  font-size: 13px;
+}
+
+a,
+a span,
+a:visited {
+  color: #FFFFFF;
+}
+
 .s-header {
   width: 100%;
   height: 96px;
@@ -77,8 +94,7 @@
 .header-nav .header-nav__close span::after {
   transform: rotate(-45deg);
 }
-.header-nav .header-nav__close span::before,
-.header-nav .header-nav__close span::after {
+.header-nav .header-nav__close span::before, .header-nav .header-nav__close span::after {
   content: "";
   display: block;
   height: 2px;
@@ -92,7 +108,9 @@
 
 .header-nav__list a,
 .header-nav__list a:visited,
-.header-nav__list a:hover {
+.header-nav__list a:hover,
+.header-menu-toggle,
+.header-menu-toggle:hover {
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -100,7 +118,6 @@
 .header-menu-toggle {
   font-family: montserrat-semibold, sans-serif;
   text-transform: uppercase;
-  color: #fff;
   position: fixed;
   right: 100px;
   width: 42px;
@@ -144,6 +161,8 @@
 .s-home {
   padding-top: 90px;
   padding-bottom: 90px;
+  width: 100%;
+  height: 100%;
   min-height: 786px;
 }
 .s-home .home-content h1,
@@ -154,6 +173,21 @@
 .s-home .home-content .home-content__main {
   padding-top: 300px;
   padding-bottom: 250px;
+}
+
+.home-content__scroll a {
+  padding-left: 20px;
+}
+.home-content__scroll a::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #39b54a;
+  border-bottom: 2px solid #39b54a;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 17px;
+  top: 5px;
 }
 
 .s-project {
