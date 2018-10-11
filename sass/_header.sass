@@ -21,6 +21,13 @@ $font-stack:  montserrat-semibold, sans-serif
 .header-nav
     background: #0C0C0C
     padding: 30px
+    width: 280px
+    position: fixed
+    font-family: $font-stack
+    right: 0
+    top: 0
+    height: 100%
+    visibility: hidden
 
     h3 
         font-family: $font-stack
@@ -86,7 +93,7 @@ $font-stack:  montserrat-semibold, sans-serif
 
     text-transform: uppercase
     color: #fff
-    position: absolute
+    position: fixed
     right: 100px
 
     .header-menu-text
@@ -108,3 +115,11 @@ $font-stack:  montserrat-semibold, sans-serif
         top: 7px
 .header-menu-toggle:hover
     text-decoration: none
+
+.menu-is-open
+    .header-nav
+        -webkit-transform: translateX(0)
+        -ms-transform: translateX(0)
+        transform: translateX(0)
+        visibility: visible
+        -webkit-overflow-scrolling: touch
