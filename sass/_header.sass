@@ -5,12 +5,11 @@ $font-stack:  montserrat-semibold, sans-serif
     height: 96px
     background-color: transparent
     position: absolute
-    top: 150px
+    top: 100px
     z-index: 500
+    position: fixed
 
-.header-logo
-    position: absolute
-    left: 100px
+// .header-logo
 
 .site-logo img
     width: 100px
@@ -99,12 +98,14 @@ $font-stack:  montserrat-semibold, sans-serif
     color: #FFFFFF
     text-decoration: none
 
+.header-nav-wrapper
+    display: flex
+    justify-content: flex-end
 .header-menu-toggle
     font-family: $font-stack
 
     text-transform: uppercase
     position: fixed
-    right: 100px
     width: 42px
     height: 42px
 
@@ -117,7 +118,7 @@ $font-stack:  montserrat-semibold, sans-serif
         width: 22px
         height: 2px
         position: absolute
-        top: 6px
+        top: 4px
     .header-menu-icon
         &::before
             content: ''
