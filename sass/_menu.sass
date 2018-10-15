@@ -1,0 +1,67 @@
+.s-menu
+    padding-top: 90px
+    padding-bottom: 90px
+    width: 100%
+    height: 100%
+    min-height: 786px
+    background-color: #39b54a
+
+    .menu-content
+
+        h1,
+        p,
+        li,
+        a
+            font-family: $font-stack
+            color: #fff
+        
+        .menu-content__main
+            padding-top: 150px
+            padding-bottom: 200px
+
+            ul
+                list-style: none
+            a
+                padding-top: 20px
+                font-size: 40px
+            
+                &:hover
+                    text-decoration: none
+
+    .menu-content__scroll
+        a
+            padding-left: 20px
+
+        span
+            color: #39b54a
+            text-transform: uppercase
+
+            &::before
+                content: ""
+                width: 8px
+                height: 8px
+                border-right: 2px solid #39b54a
+                border-bottom: 2px solid #39b54a
+                position: absolute
+                transform: rotate(45deg)
+                left: 12px
+                top: 5px
+    
+    .menu-content__line
+        width: 25%
+        height: 3px
+        background-color: #fff
+    
+    .menu_languages
+        text-align: right
+        padding-top: 60px
+       
+        a
+            padding: 0 8px
+
+.header-contact
+    list-style: none
+    position: absolute
+    right: 0
+    text-align: right
+    color: #fff

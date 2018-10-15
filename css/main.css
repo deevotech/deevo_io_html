@@ -676,4 +676,72 @@ a:visited {
   right: 16px;
 }
 
+.s-menu {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 100%;
+  height: 100%;
+  min-height: 786px;
+  background-color: #39b54a;
+}
+.s-menu .menu-content h1,
+.s-menu .menu-content p,
+.s-menu .menu-content li,
+.s-menu .menu-content a {
+  font-family: montserrat-semibold, sans-serif;
+  color: #fff;
+}
+.s-menu .menu-content .menu-content__main {
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+.s-menu .menu-content .menu-content__main ul {
+  list-style: none;
+}
+.s-menu .menu-content .menu-content__main a {
+  padding-top: 20px;
+  font-size: 40px;
+}
+.s-menu .menu-content .menu-content__main a:hover {
+  text-decoration: none;
+}
+.s-menu .menu-content__scroll a {
+  padding-left: 20px;
+}
+.s-menu .menu-content__scroll span {
+  color: #39b54a;
+  text-transform: uppercase;
+}
+.s-menu .menu-content__scroll span::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #39b54a;
+  border-bottom: 2px solid #39b54a;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 12px;
+  top: 5px;
+}
+.s-menu .menu-content__line {
+  width: 25%;
+  height: 3px;
+  background-color: #fff;
+}
+.s-menu .menu_languages {
+  text-align: right;
+  padding-top: 60px;
+}
+.s-menu .menu_languages a {
+  padding: 0 8px;
+}
+
+.header-contact {
+  list-style: none;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
