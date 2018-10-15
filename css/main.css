@@ -697,6 +697,7 @@ a:visited {
 }
 .s-menu .menu-content .menu-content__main ul {
   list-style: none;
+  padding-left: 0;
 }
 .s-menu .menu-content .menu-content__main a {
   padding-top: 20px;
@@ -728,11 +729,15 @@ a:visited {
   height: 3px;
   background-color: #fff;
 }
-.s-menu .menu_languages {
+.s-menu .menu-social__icon i {
+  color: #fff;
+  padding: 10px;
+}
+.s-menu .menu-languages {
   text-align: right;
   padding-top: 60px;
 }
-.s-menu .menu_languages a {
+.s-menu .menu-languages a {
   padding: 0 8px;
 }
 
