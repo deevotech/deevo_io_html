@@ -575,4 +575,105 @@ a:visited {
   padding-top: 30px;
 }
 
+.s-technicals {
+  padding-top: 90px;
+  width: 100%;
+  height: 100%;
+  background-color: #39b54a;
+}
+.s-technicals .technicals-content h1,
+.s-technicals .technicals-content p,
+.s-technicals .technicals-content span,
+.s-technicals .technicals-content th {
+  font-family: montserrat-semibold, sans-serif;
+  color: #fff;
+}
+.s-technicals .technicals-content .technicals-content__main {
+  padding-top: 145px;
+  padding-bottom: 96px;
+}
+.s-technicals .technicals-content .technicals-content__table {
+  padding-top: 50px;
+}
+.s-technicals .technicals-content .technicals-content__table th {
+  padding-top: 17px;
+  padding-right: 120px;
+}
+.s-technicals .technicals-content .technicals-content__action {
+  text-transform: uppercase;
+  color: blue;
+  display: block;
+  padding-top: 123px;
+  font-size: 13px;
+}
+.s-technicals .technicals-content__scroll a {
+  padding-left: 20px;
+}
+.s-technicals .technicals-content__scroll span {
+  color: #fff;
+  text-transform: uppercase;
+}
+.s-technicals .technicals-content__scroll span::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 12px;
+  top: 1px;
+}
+.s-technicals .technicals-content__line {
+  width: 2px;
+  height: 93px;
+  background-color: #fff;
+}
+
+.technicals-business {
+  text-transform: uppercase;
+  list-style: none;
+  position: absolute;
+  top: 90px;
+  right: 38px;
+  text-align: right;
+}
+.technicals-business span {
+  color: #fff;
+}
+.technicals-business i {
+  position: relative;
+  right: -23px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.header-menu-wrapper {
+  list-style: none;
+}
+.header-menu-wrapper .header-contact {
+  position: absolute;
+  top: 30px;
+  right: 1px;
+  text-transform: uppercase;
+}
+.header-menu-wrapper .header-contact:hover {
+  text-decoration: none;
+}
+.header-menu-wrapper i {
+  position: relative;
+  right: -89px;
+  font-size: 25px;
+  top: -24px;
+  color: #fff;
+}
+
+.header-menu__line hr {
+  width: 114px;
+  position: absolute;
+  background-color: #fff;
+  top: 47px;
+  right: 16px;
+}
+
 /*# sourceMappingURL=main.css.map */
